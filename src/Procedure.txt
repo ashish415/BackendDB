@@ -1,0 +1,7 @@
+ create or replace procedure insert_record
+  (Id IN number,Name IN varchar,Age number,State varchar,City varchar)
+   is
+   begin
+   insert into person values(Id,Name,Age,State,City);
+   end;
+    /
